@@ -33,7 +33,6 @@
 <script src="controller/ProductController.js"></script>
 <script src="controller/DetailController.js"></script>
 <script src="controller/MenuController.js"></script>
-<script src="controller/PageController.js"></script>
 <script src="utilFunctions.js"></script>
 
 
@@ -42,10 +41,21 @@
 <body>
 	
 	<div class="mainStyle">
-		<div ui-view="menu" class="col-xs-2"></div>
-		<!--<div ui-view="productsPage" class="col-xs-10"></div>-->
-		<!--<div ng-controller="PageController" ui-view="{{currentView}}" class="col-xs-10"></div>-->
-		<div ui-view="testPage" class="col-xs-10"></div>
+		<div class="col-xs-2">
+			<div class="pull-left height600">
+				<div ng-controller="MenuController"
+					class="panel panel-default height600">
+					<input class="form-control" ng-model="searchText" type="text"
+						placeholder="Search..">
+					<ul>
+						<li ng-repeat="entry in menuEntries | filter:searchText:contains">
+						<a ui-sref-active="active" ui-sref="{{entry.Link}}">{{entry.Name}}</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div ui-view="mainPage" class="col-xs-10"></div>
 	</div>
 
 </body>

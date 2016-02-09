@@ -7,10 +7,7 @@ app.config([ '$stateProvider', '$urlRouterProvider',
 			$stateProvider.state('productsPage', {
 				url : '/',
 				views : {
-					'menu' : {
-						templateUrl : './templates/menu.html'
-					},
-					'productsPage' : {
+					'mainPage' : {
 						templateUrl : './templates/productsPage.html'
 					},
 					'search@productsPage' : {
@@ -21,8 +18,12 @@ app.config([ '$stateProvider', '$urlRouterProvider',
 					},
 					'details@productsPage' : {
 						templateUrl : './templates/details.html'
-					},
-					'testPage' : {
+					}
+				}
+			}).state('testPage', {
+				url : '/',
+				views : {
+					'mainPage' : {
 						templateUrl : './templates/testPage.html'
 					}
 				}

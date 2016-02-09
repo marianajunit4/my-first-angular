@@ -25,6 +25,4 @@ function MenuCtrl($scope) {
 	    var lowerStr = (actual + "").toLowerCase();
 	    return lowerStr.indexOf(expected.toLowerCase()) > -1;
 	}
-	
-/*	ng-click="setView('general')*/
 }
