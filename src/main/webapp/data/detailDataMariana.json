@@ -1,0 +1,18 @@
+{"products":[
+    {
+		"ean" : "111111111",
+		"link" : "Mariana",
+		"lang" : "DE",
+		"actions" : "CANCELED"
+	}, {
+		"ean" : "111111111",
+		"link" : "Mariana",
+		"lang" : "DE",
+		"actions" : "CANCELED"
+	}, {
+		"ean" : "111111111",
+		"link" : "Mariana",
+		"lang" : "DE",
+		"actions" : "CANCELED"
+	}
+]}

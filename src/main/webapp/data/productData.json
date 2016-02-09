@@ -1,0 +1,18 @@
+{"products":[
+    {
+		"firstName" : "Mariana",
+		"lastName" : "Carney",
+		"company" : "Enormo",
+		"employed" : true
+	}, {
+		"firstName" : "Tavi",
+		"lastName" : "Wise",
+		"company" : "Comveyer",
+		"employed" : false
+	}, {
+		"firstName" : "Ana",
+		"lastName" : "Waters",
+		"company" : "Fuelton",
+		"employed" : false
+	}
+]}

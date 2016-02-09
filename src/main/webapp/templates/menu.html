@@ -1,0 +1,8 @@
+<div class="pull-left height600">
+	<div ng-controller="MenuController" class="panel panel-default height600">
+		<input class="form-control" ng-model="searchText" type="text" placeholder="Search..">
+		<ul>
+			<li ng-repeat="entry in menuEntries | filter:searchText:contains"><a ng-click="setView({{entry.Link}});" href="#">{{entry.Name}}</a></li>
+		</ul>
+	</div>
+</div>
