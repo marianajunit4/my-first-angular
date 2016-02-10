@@ -1,7 +1,7 @@
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
 
 .height600 {
-	height: 590px;
+	height: 610px;
 	width : 100%;
 }
 
@@ -51,7 +51,7 @@
 	height: 207px;
 }
 
-.nav > li > a {padding-top:5px !important; padding-bottom:5px !important;
+.nav > li > a {padding-top:6px !important; padding-bottom:6px !important;
 	color: black;
     background-color: #f0f0f5;
 }
@@ -59,4 +59,12 @@
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: #97bae7 !important;
     color: black !important;;
+}
+
+.menuLine {
+  margin: 5px 0;
+  width: 100%; 
+  color: black; 
+  height: 1px; 
+  background-color:black;
 }

@@ -4,20 +4,20 @@ function MenuCtrl($scope) {
 
     $scope.menuEntries = [
         {Link: 'productsPage', Name: 'Pageinformation'},
-        {Link: 'testPage', Name: 'Content'},
+        {Link: 'testPage', Name: 'Content', Line:true},
         {Link: 'productsPage', Name: 'Default patterns'},
         {Link: 'testPage', Name: 'Redirect Tool'},
         {Link: 'productsPage', Name: 'Internal Links'},
         {Link: 'testPage', Name: 'GSC'},
         {Link: 'productsPage', Name: '- Keyworkds'},
-        {Link: 'testPage', Name: '- URLs'},
+        {Link: 'testPage', Name: '- URLs', Line:true},
         {Link: 'productsPage', Name: 'Statistics'},
         {Link: 'testPage', Name: '- No. of PDP'},
         {Link: 'productsPage', Name: '- No. of Category'},
         {Link: 'testPage', Name: 'Competitors'},
         {Link: 'productsPage', Name: 'API SEA'},
         {Link: 'testPage', Name: 'API SM'},
-        {Link: 'productsPage', Name: 'API GA'},
+        {Link: 'productsPage', Name: 'API GA',Line:true},
         {Link: 'testPage', Name: 'Exit'}
     ];
 
