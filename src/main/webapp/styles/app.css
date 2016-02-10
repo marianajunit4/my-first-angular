@@ -51,22 +51,12 @@
 	height: 207px;
 }
 
-
-ul {
-	list-style-type:none;
-	margin:0;
-	padding:0;
+.nav > li > a {padding-top:5px !important; padding-bottom:5px !important;
+	color: black;
+    background-color: #f0f0f5;
 }
-a:link,a:visited {
-	display:block;
-	font-weight:bold;
-	font-size:14px;
-	color:#fff;
-	background-color:#3081ee;
-	width:200px;
-	padding:8px;
-	text-decoration:none;
-}
-a:hover,a:active {
-	background-color:#a8ffff;
+    
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #97bae7 !important;
+    color: black !important;;
 }
