@@ -1,4 +1,22 @@
+/pom.xml.backup
+# Default .gitignore file
+
+# Mac OS X
+.DS_Store
+
+# Vagrant
+.vagrant/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
 .classpath
 .project
 .settings/
-/target
+
+# Maven
+log/
+target/
