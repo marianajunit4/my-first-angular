@@ -3,22 +3,23 @@ app.controller('MenuController', ['$scope', MenuCtrl]);
 function MenuCtrl($scope) {
 
     $scope.menuEntries = [
-        {Link: 'productsPage', Name: 'Pageinformation'},
-        {Link: 'testPage', Name: 'Content', Line:true},
-        {Link: 'productsPage', Name: 'Default patterns'},
-        {Link: 'testPage', Name: 'Redirect Tool'},
-        {Link: 'productsPage', Name: 'Internal Links'},
-        {Link: 'testPage', Name: 'GSC'},
-        {Link: 'productsPage', Name: '- Keyworkds'},
-        {Link: 'testPage', Name: '- URLs', Line:true},
-        {Link: 'productsPage', Name: 'Statistics'},
-        {Link: 'testPage', Name: '- No. of PDP'},
-        {Link: 'productsPage', Name: '- No. of Category'},
-        {Link: 'testPage', Name: 'Competitors'},
-        {Link: 'productsPage', Name: 'API SEA'},
-        {Link: 'testPage', Name: 'API SM'},
-        {Link: 'productsPage', Name: 'API GA',Line:true},
-        {Link: 'testPage', Name: 'Exit'}
+        {Link: 'informationPage', Name: 'Pageinformation'},
+        {Link: 'contentPage', Name: 'Content'},
+        {Link: 'productsPage', Name: 'Products', Line:true},
+        {Link: 'defaultPage', Name: 'Default patterns'},
+        {Link: 'redirectPage', Name: 'Redirect Tool'},
+        {Link: 'linksPage', Name: 'Internal Links'},
+        {Link: 'gscPage', Name: 'GSC'},
+        {Link: 'keyworkPage', Name: '- Keyworkds'},
+        {Link: 'urlPage', Name: '- URLs', Line:true},
+        {Link: 'statisticsPage', Name: 'Statistics'},
+        {Link: 'pdpPage', Name: '- No. of PDP'},
+        {Link: 'categoryPage', Name: '- No. of Category'},
+        {Link: 'competitorsPage', Name: 'Competitors'},
+        {Link: 'apiSEAPage', Name: 'API SEA'},
+        {Link: 'apiSMPage', Name: 'API SM'},
+        {Link: 'apiGAPage', Name: 'API GA',Line:true},
+        {Link: 'exitPage', Name: 'Exit'}
     ];
 
     $scope.contains = function (actual, expected) {
